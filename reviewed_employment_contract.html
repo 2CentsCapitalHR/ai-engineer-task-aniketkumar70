@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviewed Employment Contract - After ADGM Agent Review</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        .document-container {
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .review-header {
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .review-summary {
+            background-color: #fef2f2;
+            border: 2px solid #fca5a5;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #1e3a8a;
+            color: white;
+            border-radius: 5px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #1e3a8a;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 5px;
+        }
+        .field {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #f8fafc;
+            border-left: 4px solid #94a3b8;
+        }
+        .field-label {
+            font-weight: bold;
+            color: #374151;
+        }
+        .field-value {
+            color: #6b7280;
+            font-style: italic;
+            margin-top: 5px;
+        }
+        .clause {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .review-comment {
+            background-color: #fef3c7;
+            border-left: 5px solid #f59e0b;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+            font-size: 14px;
+        }
+        .review-comment.high {
+            background-color: #fef2f2;
+            border-left-color: #dc2626;
+        }
+        .review-comment.medium {
+            background-color: #fff7ed;
+            border-left-color: #ea580c;
+        }
+        .review-comment.low {
+            background-color: #eff6ff;
+            border-left-color: #2563eb;
+        }
+        .review-tag {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .review-tag.high {
+            background-color: #dc2626;
+            color: white;
+        }
+        .review-tag.medium {
+            background-color: #ea580c;
+            color: white;
+        }
+        .review-tag.low {
+            background-color: #2563eb;
+            color: white;
+        }
+        .signature-section {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+        .signature-box {
+            border: 1px solid #d1d5db;
+            padding: 20px;
+            text-align: center;
+        }
+        .watermark {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-45deg);
+            font-size: 72px;
+            color: rgba(220, 38, 38, 0.1);
+            z-index: -1;
+            pointer-events: none;
+        }
+        .missing-section {
+            background-color: #fee2e2;
+            border: 2px dashed #dc2626;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+            color: #991b1b;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="watermark">REVIEWED</div>
+    
+    <div class="document-container">
+        <div class="review-header">
+            <h2>🏛️ ADGM COMPLIANCE REVIEW SUMMARY</h2>
+            <p><strong>Total Issues Found:</strong> 3 | <strong>Review Date:</strong> 2025-08-12 09:27:30 | <strong>Compliance Score:</strong> 40/100</p>
+            <p style="font-size: 14px; margin-top: 10px;">==================================================</p>
+        </div>
+
+        <div class="review-summary">
+            <h4>📊 Quick Analysis Summary:</h4>
+            <ul style="margin: 10px 0; padding-left: 20px;">
+                <li><strong>Process Type:</strong> Employment/HR</li>
+                <li><strong>Document Completeness:</strong> 33.3% (1 of 3 required documents)</li>
+                <li><strong>High Severity Issues:</strong> 2</li>
+                <li><strong>Medium Severity Issues:</strong> 1</li>
+                <li><strong>Status:</strong> Poor - Significant Issues</li>
+            </ul>
+        </div>
+
+        <div class="header">
+            <div class="title">EMPLOYMENT CONTRACT</div>
+            <div class="subtitle">Abu Dhabi Global Market (ADGM)</div>
+            <div class="subtitle">Employment Regulations 2024</div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">1. PARTIES</div>
+            <div class="field">
+                <div class="field-label">Employer:</div>
+                <div class="field-value">[EMPLOYER NAME TO BE INSERTED]</div>
+            </div>
+            <div class="field">
+                <div class="field-label">Employee:</div>
+                <div class="field-value">[EMPLOYEE NAME TO BE INSERTED]</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">2. EMPLOYMENT DETAILS</div>
+            <div class="field">
+                <div class="field-label">Date of Commencement:</div>
+                <div class="field-value">[START DATE TO BE INSERTED]</div>
+            </div>
+            <div class="field">
+                <div class="field-label">Job Title:</div>
+                <div class="field-value">[JOB TITLE TO BE INSERTED]</div>
+            </div>
+            <div class="field">
+                <div class="field-label">Place of Work:</div>
+                <div class="field-value">Abu Dhabi Global Market, Al Maryah Island, Abu Dhabi, UAE</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">3. COMPENSATION</div>
+            <div class="field">
+                <div class="field-label">Basic Salary:</div>
+                <div class="field-value">AED [AMOUNT TO BE INSERTED] per annum</div>
+            </div>
+            <div class="clause">
+                The salary shall be paid in accordance with the Company's standard payroll procedures. Payment shall be made by bank transfer to the Employee's designated bank account.
+            </div>
+            
+            <div class="missing-section">
+                <strong>⚠️ MISSING REQUIRED SECTION: PAY PERIOD</strong>
+                <p>This section must specify the payment frequency (monthly, bi-weekly, etc.)</p>
+            </div>
+            
+            <div class="review-comment high">
+                <div class="review-tag high">REVIEW #1 - HIGH SEVERITY</div>
+                <div><strong>Issue:</strong> Missing required field: Pay period</div>
+                <div><strong>Suggestion:</strong> Add Pay period as required by ER 2024, Section 5.2</div>
+                <div><strong>ADGM Reference:</strong> ER 2024, Section 5.2</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">4. WORKING HOURS</div>
+            <div class="field">
+                <div class="field-label">Standard Working Hours:</div>
+                <div class="field-value">40 hours per week, Sunday to Thursday, 9:00 AM to 6:00 PM</div>
+            </div>
+            <div class="clause">
+                The Employee may be required to work additional hours as reasonably necessary for the proper performance of duties.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">5. LEAVE ENTITLEMENTS</div>
+            <div class="field">
+                <div class="field-label">Annual Leave:</div>
+                <div class="field-value">30 working days per calendar year</div>
+            </div>
+            <div class="field">
+                <div class="field-label">Sick Leave:</div>
+                <div class="field-value">As per ADGM Employment Regulations</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">6. DISCIPLINARY AND GRIEVANCE</div>
+            <div class="clause">
+                The Employee shall comply with all Company policies and procedures. Any disciplinary matters or grievances shall be handled in accordance with the Company's HR policies, which are available upon request.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">7. TERMINATION</div>
+            <div class="clause">
+                This contract may be terminated by either party in accordance with the ADGM Employment Regulations. The Employee agrees to return all Company property upon termination.
+            </div>
+            
+            <div class="missing-section">
+                <strong>⚠️ MISSING REQUIRED INFORMATION: NOTICE PERIOD</strong>
+                <p>This section must specify the required notice period for termination</p>
+            </div>
+            
+            <div class="review-comment high">
+                <div class="review-tag high">REVIEW #2 - HIGH SEVERITY</div>
+                <div><strong>Issue:</strong> Missing required field: Notice period</div>
+                <div><strong>Suggestion:</strong> Add Notice period as required by ER 2024, Section 8.1</div>
+                <div><strong>ADGM Reference:</strong> ER 2024, Section 8.1</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">8. GENERAL PROVISIONS</div>
+            <div class="clause">
+                This contract constitutes the entire agreement between the parties. Any modifications must be made in writing and signed by both parties.
+            </div>
+            
+            <div class="review-comment medium">
+                <div class="review-tag medium">REVIEW #3 - MEDIUM SEVERITY</div>
+                <div><strong>Issue:</strong> No explicit governing law clause found</div>
+                <div><strong>Suggestion:</strong> Add clause specifying ADGM Common Law as governing law</div>
+                <div><strong>ADGM Reference:</strong> ADGM Courts Law 2013</div>
+                <div style="margin-top: 10px; padding: 10px; background-color: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong>Suggested Addition:</strong> "This contract shall be governed by and construed in accordance with the laws of the Abu Dhabi Global Market and the jurisdiction of ADGM Courts."
+                </div>
+            </div>
+        </div>
+
+        <div class="signature-section">
+            <div class="signature-box">
+                <div style="margin-bottom: 40px;">EMPLOYER</div>
+                <div style="border-top: 1px solid #000; margin-bottom: 10px;"></div>
+                <div>Signature & Date</div>
+            </div>
+            <div class="signature-box">
+                <div style="margin-bottom: 40px;">EMPLOYEE</div>
+                <div style="border-top: 1px solid #000; margin-bottom: 10px;"></div>
+                <div>Signature & Date</div>
+            </div>
+        </div>
+
+        <div style="margin-top: 40px; padding: 20px; background-color: #f3f4f6; border-radius: 8px;">
+            <h3 style="color: #374151; margin-bottom: 15px;">📋 Missing Documents Required for Complete Submission:</h3>
+            <ul style="color: #6b7280;">
+                <li>HR policy reference (disciplinary/grievance procedures)</li>
+                <li>Evidence of ADGM entity (for jurisdiction verification)</li>
+            </ul>
+            
+            <h3 style="color: #374151; margin: 20px 0 15px 0;">🎯 Next Steps:</h3>
+            <ol style="color: #6b7280;">
+                <li>Address all high-severity issues immediately before submission</li>
+                <li>Add missing Pay Period and Notice Period clauses</li>
+                <li>Include explicit governing law clause</li>
+                <li>Prepare and upload missing required documents</li>
+                <li>Consider professional legal review before final submission</li>
+            </ol>
+            
+            <div style="margin-top: 20px; padding: 15px; background-color: #fff3cd; border-radius: 6px; font-size: 12px; color: #856404;">
+                <strong>⚖️ Legal Disclaimer:</strong> This automated review is for guidance only. Professional legal advice should be sought for final compliance verification before submission to ADGM authorities.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

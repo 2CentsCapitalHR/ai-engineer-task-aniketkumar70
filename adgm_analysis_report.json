@@ -1,0 +1,153 @@
+{
+  "basic_results": {
+    "process": "Employment/HR",
+    "documents_uploaded": 1,
+    "required_documents": 3,
+    "missing_document": [
+      "HR policy reference (disciplinary/grievance procedures)",
+      "Evidence of ADGM entity (for jurisdiction verification)"
+    ],
+    "issues_found": [
+      {
+        "issue": "Missing required field: Pay period",
+        "severity": "High",
+        "suggestion": "Add Pay period as required by ER 2024, Section 5.2",
+        "adgm_reference": "ER 2024, Section 5.2",
+        "document": "ADGM Standard Employment Contract Template - ER 2024 Feb 2025.docx",
+        "document_type": "employment_contract"
+      },
+      {
+        "issue": "Missing required field: Notice period",
+        "severity": "High",
+        "suggestion": "Add Notice period as required by ER 2024, Section 8.1",
+        "adgm_reference": "ER 2024, Section 8.1",
+        "document": "ADGM Standard Employment Contract Template - ER 2024 Feb 2025.docx",
+        "document_type": "employment_contract"
+      },
+      {
+        "issue": "No explicit governing law clause found",
+        "severity": "Medium",
+        "suggestion": "Add clause specifying ADGM Common Law as governing law",
+        "adgm_reference": "ADGM Courts Law 2013",
+        "document": "ADGM Standard Employment Contract Template - ER 2024 Feb 2025.docx",
+        "document_type": "employment_contract"
+      }
+    ],
+    "document_analysis": [
+      {
+        "filename": "ADGM Standard Employment Contract Template - ER 2024 Feb 2025.docx",
+        "document_type": "employment_contract",
+        "issues": [
+          {
+            "issue": "Missing required field: Pay period",
+            "severity": "High",
+            "suggestion": "Add Pay period as required by ER 2024, Section 5.2",
+            "adgm_reference": "ER 2024, Section 5.2",
+            "document": "ADGM Standard Employment Contract Template - ER 2024 Feb 2025.docx",
+            "document_type": "employment_contract"
+          },
+          {
+            "issue": "Missing required field: Notice period",
+            "severity": "High",
+            "suggestion": "Add Notice period as required by ER 2024, Section 8.1",
+            "adgm_reference": "ER 2024, Section 8.1",
+            "document": "ADGM Standard Employment Contract Template - ER 2024 Feb 2025.docx",
+            "document_type": "employment_contract"
+          },
+          {
+            "issue": "No explicit governing law clause found",
+            "severity": "Medium",
+            "suggestion": "Add clause specifying ADGM Common Law as governing law",
+            "adgm_reference": "ADGM Courts Law 2013",
+            "document": "ADGM Standard Employment Contract Template - ER 2024 Feb 2025.docx",
+            "document_type": "employment_contract"
+          }
+        ],
+        "compliance_score": 78.33333333333334,
+        "missing_fields": [
+          "Pay period",
+          "Notice period"
+        ],
+        "found_fields": [
+          "Employer name",
+          "Employee name",
+          "Date of commencement",
+          "Job title",
+          "Wages",
+          "Hours or days of work",
+          "Vacation leave",
+          "Sick leave",
+          "Place of work or Remote employee",
+          "Disciplinary/Grievance reference"
+        ]
+      }
+    ]
+  },
+  "comprehensive_report": {
+    "analysis_summary": {
+      "process_type": "Employment/HR",
+      "documents_uploaded": 1,
+      "required_documents": 3,
+      "completeness_percentage": 33.3,
+      "missing_documents": [
+        "HR policy reference (disciplinary/grievance procedures)",
+        "Evidence of ADGM entity (for jurisdiction verification)"
+      ],
+      "overall_compliance_score": 40,
+      "compliance_status": "Poor - Significant Issues"
+    },
+    "issue_breakdown": {
+      "total_issues": 3,
+      "high_severity": 2,
+      "medium_severity": 1,
+      "low_severity": 0
+    },
+    "detailed_issues": [
+      {
+        "issue": "Missing required field: Pay period",
+        "severity": "High",
+        "suggestion": "Add Pay period as required by ER 2024, Section 5.2",
+        "adgm_reference": "ER 2024, Section 5.2",
+        "document": "ADGM Standard Employment Contract Template - ER 2024 Feb 2025.docx",
+        "document_type": "employment_contract"
+      },
+      {
+        "issue": "Missing required field: Notice period",
+        "severity": "High",
+        "suggestion": "Add Notice period as required by ER 2024, Section 8.1",
+        "adgm_reference": "ER 2024, Section 8.1",
+        "document": "ADGM Standard Employment Contract Template - ER 2024 Feb 2025.docx",
+        "document_type": "employment_contract"
+      },
+      {
+        "issue": "No explicit governing law clause found",
+        "severity": "Medium",
+        "suggestion": "Add clause specifying ADGM Common Law as governing law",
+        "adgm_reference": "ADGM Courts Law 2013",
+        "document": "ADGM Standard Employment Contract Template - ER 2024 Feb 2025.docx",
+        "document_type": "employment_contract"
+      }
+    ],
+    "recommendations": [
+      "Address all high-severity issues immediately before submission",
+      "Review and resolve medium-severity issues for better compliance",
+      "Prepare and upload all missing required documents"
+    ],
+    "next_steps": [
+      "Review all flagged issues in the annotated documents",
+      "Consult ADGM regulations for specific requirements",
+      "Consider professional legal review before final submission",
+      "Prepare any missing documents identified in the analysis"
+    ],
+    "adgm_references": [
+      "ER 2024, Section 8.1",
+      "ER 2024, Section 5.2",
+      "ADGM Courts Law 2013"
+    ],
+    "generated_on": "2025-08-12 09:27:30 UTC",
+    "disclaimer": "This automated review is for guidance only. Professional legal advice should be sought for final compliance verification."
+  },
+  "annotated_files": [
+    "ADGM Standard Employment Contract Template - ER 2024 Feb 2025_REVIEWED.docx"
+  ]
+}
